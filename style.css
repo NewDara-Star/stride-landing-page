@@ -1,0 +1,99 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #f4f4f4;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 40px 20px;
+    margin: 20px 0;
+  }
+  
+  #hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #features h2, #waitlist h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #waitlist form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #waitlist input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #waitlist button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }

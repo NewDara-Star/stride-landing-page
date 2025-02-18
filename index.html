@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stride - Dynamic Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stride</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#waitlist">Join Waitlist</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Plan Your Workouts. Track Your Progress. Share Your Success.</h2>
+        <p>Your ultimate fitness tracking tool is coming soon.</p>
+        <a href="#waitlist" class="cta-btn">Join the Waitlist</a>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <!-- Dynamic content will be loaded here -->
+      <div id="features-content">
+        <p>Loading features...</p>
+      </div>
+    </section>
+
+    <section id="waitlist">
+      <h2>Join the Waitlist</h2>
+      <form id="waitlist-form">
+        <label for="email">Enter your email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="you@example.com"
+        />
+        <button type="submit">Notify Me</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Stride. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
