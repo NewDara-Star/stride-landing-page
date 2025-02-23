@@ -17,7 +17,7 @@ function Footer() {
                     Stride is a fitness tracking app that helps you plan and track your workouts, track your progress, and share your results with others.
                 </AccordionItem>
                 <AccordionItem title="Is Stride free to use?">
-                    Stride is a fitness tracking app that helps you plan and track your workouts, track your progress, and share your results with others.
+                    a fitness tracking app that helps you plan and track your workouts, track your progress, and share your results with others.
                 </AccordionItem>
             </div>
         </footer>
