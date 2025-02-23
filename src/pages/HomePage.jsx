@@ -4,6 +4,7 @@ import Hero from "../components/section/hero";
 import HowItWorks from "../components/section/HowItWorks";
 import Features from "../components/section/features";
 import JoinWaitlist from "../components/section/JoinWaitlist"; 
+import Footer from "../components/section/footer";
 
 function HomePage() {    
     return (
@@ -13,7 +14,7 @@ function HomePage() {
             <HowItWorks />\
             <Features />
             <JoinWaitlist /> 
-
+<Footer />
             
         </section>
     )

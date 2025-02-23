@@ -6,8 +6,8 @@ function JoinWaitlist() {
     return (
         <section className="flex flex-col items-center p-16 justify-start gap-16 h-auto ">
            <div className="flex flex-col items-center p-16 justify-start gap-6 ">
-           <h1 className="text-4xl font-bold mb-4">How It Works</h1>
-           <p className="text-lg mb-8">Stride is designed to simplify your fitness journey. Whether you’re new to working out or a seasoned athlete, we’ve made it easy to plan, track, and visualize your progress—all in one place.</p>
+           <h1 className="text-4xl font-bold mb-4">Join the waitlist</h1>
+           <p className="text-lg mb-8">Experience the power of a truly integrated fitness tool with Stride. Elevate your workouts and achieve your goals with features that work as hard as you do.</p>
            
            <div className="flex space-x-4">
             <input type="text" placeholder="Enter your email" />
