@@ -18,4 +18,4 @@ function JoinWaitlist() {
     )
 }       
 
-export default JoinWaitlist;
+export default JoinWaitlist
