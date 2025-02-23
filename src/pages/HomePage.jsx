@@ -8,7 +8,7 @@ import Footer from "../components/section/footer";
 
 function HomePage() {    
     return (
-        <section className="w-screen h-screen gap-4">
+        <section className="w-full min-h-screen overflow-x-hidden gap-4">
             <Nav />
             <Hero />
             <HowItWorks />\
