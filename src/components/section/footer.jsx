@@ -3,7 +3,7 @@ import AccordionItem from "../ui/AccordionItem";
 
 function Footer() {
     return (
-        <footer className="flex flex-col items-center p-16 justify-start gap-16 h-auto">
+        <footer className="flex flex-col items-center p-16 justify-start gap-16 h-auto mx-auto">
             <div className="flex flex-col items-center p-16 justify-start gap-6">
                 <h1 className="text-4xl font-bold mb-4">FAQ</h1>
                 <p className="text-lg mb-8">Frequently Asked Questions</p>

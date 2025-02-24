@@ -11,9 +11,9 @@ function Nav() {
     }
 
     return (
-        <section className="flex justify-between items-center w-full h[64px] px-6">
+        <section className="flex justify-between items-center w-full h[64px] px-6 mx-auto">
 
-            <img src="/Stride.svg" alt="logo" className="w-1/6 h-full"/>
+            <img src="/Stride.svg" alt="logo" className=" w-1/4 md:w-1/12 h-full dark:invert"/>
             {/* Desktop Menu */}    
             <div className="hidden md:flex items-center space-x-8 ">
                 <Link to="/">Home</Link>
