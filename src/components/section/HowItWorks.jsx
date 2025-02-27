@@ -3,10 +3,10 @@ import AppShowcase from "../ui/AppShowcase";
 
 function HowItWorks() {
     return (
-        <section className="flex flex-col items-center p-8 justify-start gap-16 h-auto w-full ">
-           <div className="flex flex-col items-center justify-start gap-6 ">
+        <section className="flex flex-col items-center justify-start p-8 gap-16 h-auto w-full ">
+           <div className="flex flex-col items-center justify-start gap-6 p-8">
            <h1 className="text-4xl font-bold mb-4">How It Works</h1>
-           <p className="text-lg mb-8">Stride is designed to simplify your fitness journey. Whether you’re new to working out or a seasoned athlete, we’ve made it easy to plan, track, and visualize your progress—all in one place.</p>
+           <p className="text-lg mb-8 w-full">Stride is designed to simplify your fitness journey. Whether you’re new to working out or a seasoned athlete, we’ve made it easy to plan, track, and visualize your progress—all in one place.</p>
             </div>
           
       
