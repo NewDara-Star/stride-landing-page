@@ -10,7 +10,7 @@ function Button({ variant = "primary", children, ...props }) {
     };
 
     return (
-      <button className={classes[variant]} {...props}>
+      <button className= {`w-full ${classes[variant]} `} {...props}  >
         {children || "Click"}
       </button>
     );
