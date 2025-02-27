@@ -7,7 +7,7 @@ function FAQ() {
 
         <div className="flex flex-col items-center justify-start gap-4 w-full"> 
            <h1 className="text-4xl font-bold mb-4">FAQ</h1>
-           <p className="text-lg mb-8">Frequently Asked Questions</p>
+           <p className="text-lg mb-8">Do you have a question? check our frequently asked questions.</p>
         </div>
                 
             
