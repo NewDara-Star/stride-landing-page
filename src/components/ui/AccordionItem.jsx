@@ -10,7 +10,7 @@ function AccordionItem({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-gray-200">
+    <div className="border-b border-gray-200 w-full">
       <button
         className="flex w-full justify-between items-center py-4 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}

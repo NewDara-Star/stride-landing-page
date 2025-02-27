@@ -12,13 +12,13 @@ function PriceCard({
 
 {
   return (
-    <div className="p-6 rounded-lg shadow text-center space-y-4 w-full max-w-sm h-full">
-      <h2 className="text-xl font-bold">{title}</h2>
-      <p className="text-3xl font-bold">
+    <div className=" flex flex-col items-left p-6 rounded-lg shadow text-center space-y-4 w-full max-w-sm h-full justify-between  ">
+      <h2 className="text-left text-xl font-bold">{title}</h2>
+      <p className="text-left text-3xl font-bold">
         {price}
-        <span className="text-base font-normal"> {frequency}</span>
+        <span className="text-left text-base font-normal"> {frequency}</span>
       </p>
-      <p className="text-600">{description}</p>
+      <p className="text-left text-600">{description}</p>
       <ul className="text-left space-y-2">
         {features.map((item, idx) => (
           <li key={idx} className="flex items-center">

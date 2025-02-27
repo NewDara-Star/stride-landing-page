@@ -15,24 +15,28 @@ function HowItWorks() {
        imageUrl="/Context Menu - iPhone.png"
        headerText="Create Your Routine"  
        bodyText="Build your custom workout plan by selecting your preferred exercises and scheduling them throughout the week."
+       direction={true}
        />
 
        <AppShowcase 
        imageUrl="/Context Menu - iPhone.png"
        headerText="Log Your Exercises"  
        bodyText="Quickly record sets, reps, and notes each time you work out. No more guesswork—every detail is stored for easy reference."
+       direction={false}
        />
 
        <AppShowcase 
        imageUrl="/Context Menu - iPhone.png"
        headerText="Track Your Progress"  
        bodyText="Watch your stats transform into engaging charts and graphs, so you can see exactly how you’re improving over time."
+       direction={true}
        />     
 
        <AppShowcase
        imageUrl="/Context Menu - iPhone.png"
        headerText="Share Your Achievements"  
        bodyText="Celebrate your milestones with friends and family. Stride’s social-sharing features let you post progress visuals directly to your favorite platforms."
+       direction={false}
        />  
 
 
