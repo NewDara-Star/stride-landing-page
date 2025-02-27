@@ -9,7 +9,7 @@ AppShowcase.propTypes = {
 };
 function AppShowcase  ({ imageUrl, headerText, bodyText, direction }) {
     return (
-        <section className={`flex flex-col items-center p-8 justify-around gap-16 mx-8 md:${direction ? "flex-row" : "flex-row-reverse"}`}>
+        <section className={`flex flex-col items-center p-8 justify-around gap-16 mx-8 md:${direction ? "flex-row-reverse" : "flex-row"} md:flex-row`} >
             <img src={imageUrl} alt="App showcase" className=' w-1/2 md:w-1/4'/>
             
                 <div className="flex flex-col items-start justify-start min-w-28w-full md:w-1/2 ">
