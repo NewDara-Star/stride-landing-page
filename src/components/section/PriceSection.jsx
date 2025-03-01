@@ -1,11 +1,11 @@
 import PriceCard from "../ui/PriceCard";
+import SectionTitle from "../ui/SectionTitle";
 
 function PriceSection() {
     return (
-        <section className="flex flex-col items-center justify-center gap-8 p-8">
-            <h1 className="text-4xl font-bold mb-4">Choose Your Plan</h1>
-            <p className="text-lg mb-8">Whether you’re just starting your fitness journey or you’re a seasoned athlete, Stride has a plan to fit your goals. Pick a subscription that works best for you, and get ready to take your workouts to the next level. </p>
-
+        <section className="flex flex-col items-center justify-center gap-8 p-8 h-auto mx-auto">
+                    <SectionTitle title="Choose Your Plan" text="Whether you’re just starting your fitness journey or you’re a seasoned athlete, 
+                Stride has a plan to fit your goals. Pick a subscription that works best for you, and get ready to take your workouts to the next level."/>
 
             <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-8 md:flex-row">
                 <PriceCard

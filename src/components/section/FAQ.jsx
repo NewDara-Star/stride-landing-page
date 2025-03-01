@@ -1,14 +1,13 @@
 import AccordionItem from "../ui/AccordionItem";
+import SectionTitle from "../ui/SectionTitle";
 
 
 function FAQ() {
     return (
-        <section className="flex flex-col items-center p-8 justify-start gap-8 h-auto mx-auto w-full">
+        <section className="flex flex-col items-center justify-center gap-8 p-8 h-auto">
+            <SectionTitle title="FAQ" text="Do you have a question? check our frequently asked questions."/>
 
-        <div className="flex flex-col items-center justify-start gap-4 w-full"> 
-           <h1 className="text-4xl font-bold mb-4">FAQ</h1>
-           <p className="text-lg mb-8">Do you have a question? check our frequently asked questions.</p>
-        </div>
+       
                 
             
 

@@ -14,7 +14,7 @@ function Nav() {
         <section className="flex justify-between items-center w-full h[64px] px-6 mx-auto">
 
             <Link to="/" className=" w-1/4 md:w-1/12 h-full">
-            <img src="/Stride.svg" alt="logo" className="  dark:invert"/>
+            <img src="/images/Stride.svg" alt="logo" className="  dark:invert"/>
             </Link>
             {/* Desktop Menu */}    
             <div className="hidden md:flex items-center space-x-8 ">

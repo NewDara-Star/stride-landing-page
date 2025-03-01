@@ -1,12 +1,12 @@
 import Button from "../ui/Button";
 import { Link } from "react-router-dom";
+import SectionTitle from "../ui/SectionTitle";
 
 function ContactUs() {
     return (
-        <section className="flex flex-col items-center p-8 justify-start gap-16 h-auto mx-auto ">
-           <div className="flex flex-col items-center p-8 justify-start gap-6 ">       
-           <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
-           <p className="text-lg mb-8">Ask us questions or suggest features that you will like us to add</p>
+        <section className="flex flex-col items-center justify-center gap-8 p-8 h-auto mx-auto ">
+            <SectionTitle title="Contact Us" text="Ask us questions or suggest features that you will like us to add"/>
+          
            
            <div className="flex flex-col items-start justify-start min-w-28 w-full gap-4">
            
@@ -44,7 +44,7 @@ function ContactUs() {
                 </Button>
                 </Link>
            </div>
-            </div>
+            
         </section>
     )
 }
