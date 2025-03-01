@@ -5,7 +5,7 @@ import SectionTitle from "../ui/SectionTitle";
 
 function Features() {
     return (
-        <section className="flex flex-col items-center justify-center gap-8 p-8 h-auto mx-auto">
+        <section className="flex flex-col items-center justify-center gap-8 p-8 h-auto mx-auto animate-slideIn">
             <SectionTitle title="Features" text="At Stride, we believe that your fitness journey should be as dynamic and personalized as you are. Our key features are designed to empower you every step of the way:"/>
 
 
