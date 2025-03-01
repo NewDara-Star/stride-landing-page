@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import ContactPage from './pages/ContactPage'
 import PricingPage from './pages/PricingPage'
 import BlogPage from './pages/BlogPage'
+import JoinWaitlistPage from './pages/JoinWaitlistPage' 
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
     <Route path="/contact" element={<ContactPage />} />
     <Route path="/pricing" element={<PricingPage />} />
     <Route path="/blog" element={<BlogPage />} />
+    <Route path="/join-waitlist" element={<JoinWaitlistPage />} />
+
 
 
   </Routes>
