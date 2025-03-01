@@ -30,7 +30,7 @@ function ScrollFadeIn({ children, slideDirection = "up" }) {
         ? "translate-y-[100px]" 
         : slideDirection === "left" 
         ? "translate-x-[100px]" 
-        : "translate-x-[100px]"; // Moves right
+        : "translate-x-[-100px]"; // Moves right
 
     return (
         <div
