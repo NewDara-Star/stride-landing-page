@@ -7,7 +7,7 @@ SectionTitle.propTypes = {
 
 function SectionTitle({title, text}) {
     return (
-<div className="flex flex-col items-center p-8 justify-start gap-4 ">       
+<div className="flex flex-col  p-8 justify-start gap-4 ">       
            <h1 className="text-4xl font-bold mb-4">{title}</h1>
            <p className="text-lg mb-8">{text}</p>
 
