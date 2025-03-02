@@ -11,9 +11,9 @@ function Nav() {
     }
 
     return (
-        <section className="flex justify-between items-center w-full h[64px] px-6 mx-auto">
+        <section className="flex justify-between items-center w-full h-[64px] px-6 mx-auto">
 
-            <Link to="/" className=" w-1/4 md:w-1/12 h-full">
+            <Link to="/" className=" w-1/4 md:w-1/12 items-center">
             <img src="/images/Stride.svg" alt="logo" className="  dark:invert"/>
             </Link>
             {/* Desktop Menu */}    
@@ -31,7 +31,7 @@ function Nav() {
         </button>
 
         {isMobileMenuOpen && (
-                <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg">
+                <div className="md:hidden absolute top-32 left-16 right-16 bg-white shadow-lg z-50 rounded-lg">
                     <div className="flex flex-col space-y-4 px-8 py-4">
                         <Link to="/contact" className="hover:text-indigo-600">Contact Us</Link>
                         <Link to="/pricing" className="hover:text-indigo-600">Pricing</Link>
