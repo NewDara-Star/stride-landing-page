@@ -28,22 +28,14 @@ a:hover {
 
 html,
 body {
-  
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   overflow-x: hidden;
   line-height: 1.5;
-  margin: 0;
-  padding: 0px;
   text-rendering: antialiased;
-  width: 100vw 
-  
-  
 }
 
 h1 {

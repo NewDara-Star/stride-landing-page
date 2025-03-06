@@ -21,22 +21,23 @@ function BlogSection() {
       text: "Separating hydration facts from fiction to optimize performance.",
       date: "March 3, 2025",
     },
-    
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center gap-8 p-8 h-auto ">
-      <SectionTitle title="Blog" text="Stay up-to-date with the latest fitness insights and trends."/>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {blogPosts.map((post, index) => (
-          <BlogCard 
-            key={index} 
-            imageUrl={post.imageUrl} 
-            title={post.title} 
-            text={post.text} 
-            date={post.date} 
-          />
-        ))}
+    <section className="w-screen">
+      <div className="flex flex-col items-center justify-center gap-8 p-8 pt-28 h-auto max-w-7xl mx-auto">
+        <SectionTitle title="Blog" text="Stay up-to-date with the latest fitness insights and trends."/>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {blogPosts.map((post, index) => (
+            <BlogCard 
+              key={index} 
+              imageUrl={post.imageUrl} 
+              title={post.title} 
+              text={post.text} 
+              date={post.date} 
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
