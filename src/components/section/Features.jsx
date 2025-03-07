@@ -16,32 +16,28 @@ function Features() {
 
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 sm:grid-cols-1 w-full">
                     <FeatureCard 
-                        imageUrl="/images/character2.gif"
+                        imageUrl="/images/a-4-3-aspect-ratio-image-of-a-ui-element_VIh9wZzqQqmUmi-aE9iydg_Tzu9OYQuSYev6Eu-mP4CDQ.jpeg"
                         headerText="Workout Planner"  
                         bodyText="Organize your week effortlessly. Create custom workout routines that fit your lifestyle—whether you're focused on strength, cardio, or flexibility."
                     />
                     <FeatureCard 
-                        imageUrl="/images/character2.gif"
+                        imageUrl="/images/a-user-interface-element-for-exercise-lo_AJRGNc6yRx6AC0X2q-E2Sw_5DNxivzpQViAIStvIbpYmQ.jpeg"
                         headerText="Exercise Logging"  
                         bodyText="Capture every detail of your progress. Record your sets, reps, weights, and notes for each exercise, so you can see your improvements over time."
                     />
-                    <FeatureCard 
-                        imageUrl="/images/character2.gif"
-                        headerText="Track Your Progress"  
-                        bodyText="Watch your stats transform into engaging charts and graphs, so you can see exactly how you're improving over time."
-                    />
+                  
                     <FeatureCard
-                        imageUrl="/images/character2.gif"
+                        imageUrl="/images/a-4-3-aspect-ratio-illustration-of-a-pro_MTP69lydTwqgALkeM069QQ_yGaZe-f2SLO54PaodVGk6g.jpeg"
                         headerText="Progress Tracking"  
                         bodyText="Visualize your journey. Transform your workout data into engaging charts and graphs that highlight your milestones and motivate you to push further."   
                     />  
                     <FeatureCard
-                        imageUrl="/images/character2.gif"
+                        imageUrl="/images/an-illustration-of-a-social-media-app-in_s8wFaUflSkCyPAekU24KIg_T3gf4g6OTc63iYZO8Eq37g.jpeg"
                         headerText="Social Sharing"  
                         bodyText="Inspire and be inspired. Share your fitness achievements and progress visuals directly on social media, connecting you with a community of like-minded enthusiasts."   
                     />
                     <FeatureCard
-                        imageUrl="/images/character2.gif"
+                        imageUrl="/images/a-4-3-aspect-ratio-illustration-of-a-use_TF0r8zlKSpytCGbzOXw8-Q_eh6F4002SXOvHMtAXKWpIA.jpeg"
                         headerText="Customizable Goals"  
                         bodyText="Set and conquer your personal targets. Define your fitness goals—whether it's running a faster mile, lifting heavier, or shedding pounds—and track your progress with precision."   
                     />

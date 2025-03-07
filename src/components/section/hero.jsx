@@ -17,7 +17,7 @@ function Hero() {
             </span>
 
             <img 
-                        src="public/images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg" 
+                        src="/images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg" 
                         alt="Animated preview" 
                         className=" aspect-[16/9] w-full overflow-hidden rounded-xl max-w-4xl mt-8
                         h-full object-cover object-top animate-slideIn z-[1] shadow-2xl"
