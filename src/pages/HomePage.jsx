@@ -8,7 +8,7 @@ import FAQ from "../components/section/FAQ";
 
 function HomePage() {    
     return (
-        <section className="w-full min-h-screen flex flex-col gap-4 content-center align-center justify-center items-self-center my-2">
+        <section className="w-full min-h-screen flex flex-col content-center align-center justify-center items-self-center my-2">
             <Nav />
             <Hero />
            
