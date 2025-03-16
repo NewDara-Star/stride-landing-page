@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Share Your Achievements</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #FCE7F3, #E0F9FE);
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      min-height: 100vh;
+    }
+    .app {
+        width: 402px;
+        height: 874px; /* Typical phone height */
+      background: #fff;
+      overflow: hidden;
+      display: flex; 
+      flex-direction: column;
+    }
+    .banner {
+      width: 100%;
+      height: 364px;
+      background: url('public/images/Gemini_Generated_Image_ap9cdvap9cdvap9c.jpg') center/cover no-repeat;
+      position: relative;
+      display: flex; 
+      align-items: flex-end;
+      padding: 15px;
+    }
+    .banner-text {
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 10px;
+      max-width: 85%;
+    }
+    .banner-text h2 {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    .banner-text p {
+      font-size: 0.85rem;
+      line-height: 1.3;
+      opacity: 0.95;
+    }
+    .content {
+      flex: 1;
+      padding: 20px; 
+      overflow-y: auto;
+    }
+    .section-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .sharing-description {
+      font-size: 0.85rem;
+      color: #444;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+    .platform-cards {
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .platform-card {
+      background: #f6f6f6; 
+      border-radius: 8px; 
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .platform-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    .platform-card h3 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 5px;
+    }
+    .platform-card span {
+      font-size: 0.75rem;
+      color: #777;
+    }
+    .cta-btn {
+      display: block; 
+      width: 100%; 
+      text-align: center;
+      max-width: 200px; 
+      margin: 0 auto;
+      padding: 12px;
+      background: #4fd1c5; 
+      color: #fff;
+      border: none; 
+      border-radius: 5px;
+      font-weight: bold; 
+      font-size: 0.9rem;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .cta-btn:hover {
+      background: #3fa69d; 
+      transform: translateY(-2px);
+      cursor: pointer;
+    }
+    .nav-bar {
+        height: 80px; 
+        background: #000;
+        color: #fff;
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center;
+        padding-bottom: 20px;
+      }
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.8rem;
+      opacity: 0.9;
+      transition: opacity 0.2s;
+    }
+    .nav-item:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- Banner Section -->
+    <div class="banner">
+      <div class="banner-text">
+        <h2>Share Your Achievements</h2>
+        <p>
+          Celebrate your milestones with friends and family. Stride's social-sharing 
+          features let you post progress visuals directly to your favorite platforms.
+        </p>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <h3 class="section-title">Spread the Word</h3>
+      <p class="sharing-description">
+        Share your success and inspire others. Boost your motivation by letting friends 
+        and family cheer you on!
+      </p>
+      <div class="platform-cards">
+        <div class="platform-card">
+          <h3>Instagram</h3>
+          <span>Share a post or story</span>
+        </div>
+        <div class="platform-card">
+          <h3>Twitter</h3>
+          <span>Announce your progress</span>
+        </div>
+        <div class="platform-card">
+          <h3>Facebook</h3>
+          <span>Post to your timeline</span>
+        </div>
+        <div class="platform-card">
+          <h3>WhatsApp</h3>
+          <span>Share with close friends</span>
+        </div>
+      </div>
+      <button class="cta-btn" onclick="alert('Achievements shared!')">
+        Post Achievement
+      </button>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Explore</div>
+      <div class="nav-item">Share</div>
+      <div class="nav-item">Profile</div>
+    </div>
+  </div>
+</body>
+</html>

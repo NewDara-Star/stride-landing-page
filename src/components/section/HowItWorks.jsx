@@ -16,7 +16,7 @@ function HowItWorks() {
                 <ScrollFadeIn
                 slideDirection="left">
                     <AppShowcase 
-                        imageUrl="/images/Explore.jpg"
+                        imageUrl="/images/iPhone 2.png"
                         headerText="Create Your Routine"  
                         bodyText="Build your custom workout plan by selecting your preferred exercises and scheduling them throughout the week."
                         direction={true}
@@ -26,7 +26,7 @@ function HowItWorks() {
                 <ScrollFadeIn
                 slideDirection="right">
                     <AppShowcase 
-                        imageUrl="/images/Workout.jpg"
+                        imageUrl="/images/iPhone 3.png"
                         headerText="Log Your Exercises"  
                         bodyText="Quickly record sets, reps, and notes each time you work out. No more guesswork—every detail is stored for easy reference."
                         direction={false}
@@ -36,7 +36,7 @@ function HowItWorks() {
                 <ScrollFadeIn
                 slideDirection="left">
                     <AppShowcase 
-                        imageUrl="/images/Activity.jpg"
+                        imageUrl="/images/iPhone 4.png"
                         headerText="Track Your Progress"  
                         bodyText="Watch your stats transform into engaging charts and graphs, so you can see exactly how you're improving over time."
                         direction={true}
@@ -46,7 +46,7 @@ function HowItWorks() {
                 <ScrollFadeIn
                 slideDirection="right">
                     <AppShowcase
-                        imageUrl="/images/Explore.jpg"
+                        imageUrl="/images/iPhone 5.png"
                         headerText="Share Your Achievements"  
                         bodyText="Celebrate your milestones with friends and family. Stride's social-sharing features let you post progress visuals directly to your favorite platforms."
                         direction={false}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Track Your Progress</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #FCE7F3, #E0F9FE);
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      min-height: 100vh;
+    }
+    .app {
+        width: 402px;
+        height: 874px; /* Typical phone height */
+      background: #fff;
+      overflow: hidden;
+      display: flex; 
+      flex-direction: column;
+    }
+    /* Banner (similar to first two pages) */
+    .banner {
+        
+      width: 100%;
+      height: 364px;
+      background: url('public/images/Gemini_Generated_Image_v1qzqyv1qzqyv1qz.jpg') center/cover no-repeat;
+      position: relative;
+      display: flex; 
+      align-items: flex-end;
+      padding: 15px;
+    }
+    .banner-text {
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 10px;
+      max-width: 85%;
+    }
+    .banner-text h2 {
+      font-size: 1.2rem; 
+      margin-bottom: 5px;
+    }
+    .banner-text p {
+      font-size: 0.85rem; 
+      line-height: 1.3;
+      opacity: 0.95;
+    }
+
+    .content {
+      flex: 1;
+      padding: 20px; 
+      overflow-y: auto;
+    }
+    /* Date/Month Selector */
+    .date-bar {
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .date-bar .month-year {
+      font-weight: 600; 
+      font-size: 1rem; 
+      color: #333;
+    }
+    .days-row {
+      display: flex; 
+      gap: 8px; 
+      overflow-x: auto; 
+      margin-top: 10px;
+    }
+    .day {
+      min-width: 36px; 
+      text-align: center; 
+      background: #f4f4f4;
+      border-radius: 6px; 
+      padding: 6px 0;
+      font-size: 0.8rem; 
+      color: #333;
+      cursor: pointer;
+    }
+    .day.active {
+      background: #4fd1c5; 
+      color: #fff;
+    }
+
+    /* Report Title */
+    .report-title {
+      margin-top: 20px; 
+      margin-bottom: 10px;
+      font-weight: 600; 
+      color: #333;
+      font-size: 0.95rem;
+    }
+    /* Stats Grid */
+    .stats-grid {
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .stat-card {
+      background: #f6f6f6; 
+      border-radius: 8px; 
+      padding: 10px;
+      display: flex; 
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .stat-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    .stat-card h4 {
+      font-size: 0.9rem; 
+      font-weight: 600; 
+      color: #444; 
+      margin-bottom: 5px;
+    }
+    .stat-card p {
+      font-size: 0.8rem; 
+      color: #666; 
+      line-height: 1.2;
+    }
+    /* Example circular chart */
+    .circular-chart {
+      width: 60px; 
+      height: 60px; 
+      background: conic-gradient(#4fd1c5 0% 65%, #ddd 65% 100%);
+      border-radius: 50%; 
+      margin: 0 auto 8px auto;
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+    }
+    .circular-chart span {
+      color: #333; 
+      font-size: 0.7rem; 
+      background: #fff; 
+      border-radius: 50%; 
+      padding: 2px 5px; 
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Bottom Navigation Bar */
+    .nav-bar {
+        height: 80px; 
+        background: #000;
+        color: #fff;
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center;
+        padding-bottom: 20px;
+      }
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.8rem;
+      opacity: 0.9;
+      transition: opacity 0.2s;
+    }
+    .nav-item:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- Banner Section -->
+    <div class="banner">
+      <div class="banner-text">
+        <h2>Track Your Progress</h2>
+        <p>
+          Watch your stats transform into engaging charts and graphs, so you can see exactly how you're improving over time.
+        </p>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <div class="date-bar">
+        <div class="month-year">July 2022</div>
+      </div>
+      <div class="days-row">
+        <div class="day">S<br>10</div>
+        <div class="day">M<br>11</div>
+        <div class="day">T<br>12</div>
+        <div class="day">W<br>13</div>
+        <div class="day active">T<br>14</div>
+        <div class="day">F<br>15</div>
+        <div class="day">S<br>16</div>
+        <div class="day">S<br>17</div>
+        <div class="day">M<br>18</div>
+      </div>
+
+      <!-- Report Title -->
+      <div class="report-title">Today's Analytics</div>
+      <div class="stats-grid">
+        <!-- Card 1: Active Calories -->
+        <div class="stat-card">
+          <h4>Active Calories</h4>
+          <p>645 Cal</p>
+        </div>
+        <!-- Card 2: Training Time with circular chart -->
+        <div class="stat-card">
+          <h4>Training Time</h4>
+          <div class="circular-chart">
+            <span>80%</span>
+          </div>
+          <p>Way to go!</p>
+        </div>
+        <!-- Card 3: Heart Rate -->
+        <div class="stat-card">
+          <h4>Heart Rate</h4>
+          <p>79 Bpm</p>
+        </div>
+        <!-- Card 4: Steps -->
+        <div class="stat-card">
+          <h4>Steps</h4>
+          <p>999/2000 <br/> Keep it Up! 💪</p>
+        </div>
+        <!-- Card 5: Sleep -->
+        <div class="stat-card">
+          <h4>Sleep</h4>
+          <p>6.5h / 8h</p>
+        </div>
+        <!-- Card 6: Water -->
+        <div class="stat-card">
+          <h4>Water</h4>
+          <p>6/8 Cups</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Explore</div>
+      <div class="nav-item">Analytics</div>
+      <div class="nav-item">Profile</div>
+    </div>
+  </div>
+</body>
+</html>

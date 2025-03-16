@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workout Planner</title>
+  <style>
+    /* Import a modern, clean font (inline) */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    /* Reset and basic mobile-friendly setup */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #FCE7F3, #E0F9FE);
+      display: flex; justify-content: center; align-items: center;
+      min-height: 100vh;
+    }
+    /* Phone "frame" for a mobile-app look */
+    .app {
+        width: 402px;
+        height: 874px; /* Typical phone height */
+      background: #fff;
+      
+      overflow: hidden;
+      display: flex; 
+      flex-direction: column;
+    }
+    /* Header Banner */
+    .banner {
+      width: 100%; 
+      height: 364px;
+      background: url('/Users/Star/Documents/GitHub/stride-landing-page/public/images/Gemini_Generated_Image_w2etp3w2etp3w2et.jpg') center/cover no-repeat;
+      position: relative; 
+      display: flex; 
+      align-items: flex-end; 
+      padding: 15px;
+    }
+    .banner-text {
+      background: rgba(0,0,0,0.4);
+      color: #fff;
+      padding: 10px 15px; 
+      border-radius: 10px;
+      max-width: 80%;
+    }
+    .banner-text h2 {
+      font-size: 1.2rem; margin-bottom: 5px;
+    }
+    .banner-text a {
+      color: #4fd1c5; text-decoration: none; font-size: 0.85rem;
+      font-weight: 600;
+    }
+    /* Main content container */
+    .content {
+      flex: 1; 
+      overflow-y: auto; 
+      padding: 20px;
+    }
+    .section-title {
+      font-weight: 600; 
+      font-size: 1rem; 
+      color: #333;
+      margin-bottom: 10px;
+    }
+    /* Workout cards grid */
+    .card-grid {
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px; 
+      margin-bottom: 20px;
+    }
+    .workout-card {
+      background: #f0f0f0; 
+      padding: 10px; 
+      border-radius: 8px;
+      text-align: center; 
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .workout-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .workout-card h3 {
+      font-size: 0.95rem; 
+      margin-bottom: 5px; 
+      color: #333;
+    }
+    .workout-card span {
+      font-size: 0.75rem; 
+      color: #777;
+    }
+    /* Bottom nav bar */
+    .nav-bar {
+      height: 80px; 
+      background: #000;
+      color: #fff;
+      display: flex; 
+      justify-content: space-around; 
+      align-items: center;
+      padding-bottom: 20px;
+    }
+    .nav-item {
+      display: flex; 
+      flex-direction: column; 
+      align-items: center;
+      font-size: 0.8rem; 
+      opacity: 0.9;
+      transition: opacity 0.2s;
+    }
+    .nav-item:hover {
+      opacity: 1; 
+      cursor: pointer;
+    }
+    .cta-btn {
+      display: block; 
+      width: 100%; 
+      text-align: center;
+      margin: 10px auto 0 auto; 
+      max-width: 200px;
+      padding: 12px; 
+      background: #4fd1c5; 
+      color: #fff;
+      border: none; 
+      border-radius: 5px;
+      font-weight: bold; 
+      font-size: 0.9rem;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .cta-btn:hover { 
+      background: #3fa69d; 
+      transform: translateY(-2px);
+      cursor: pointer; 
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- Banner Section -->
+    <div class="banner">
+      <div class="banner-text">
+        <h2>Best Quarantine Workout</h2>
+        <a href="#">See more &raquo;</a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <!-- BEST FOR YOU -->
+      <div>
+        <h3 class="section-title">Best for you</h3>
+        <div class="card-grid">
+          <div class="workout-card">
+            <h3>Belly fat burner</h3>
+            <span>10 min | Beginner</span>
+          </div>
+          <div class="workout-card">
+            <h3>Lose Fat</h3>
+            <span>10 min | Beginner</span>
+          </div>
+          <div class="workout-card">
+            <h3>Plank</h3>
+            <span>5 min | Expert</span>
+          </div>
+          <div class="workout-card">
+            <h3>Build Whide</h3>
+            <span>30 min | Intermediate</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHALLENGE -->
+      <div>
+        <h3 class="section-title">Challenge</h3>
+        <div class="card-grid">
+          <div class="workout-card" style="background:#c7f9cc;">
+            <h3>Plank Challenge</h3>
+          </div>
+          <div class="workout-card" style="background:#fdeb93;">
+            <h3>Sprint Challenge</h3>
+          </div>
+          <div class="workout-card" style="background:#9bf6ff;">
+            <h3>Squat Challenge</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAST WARMUP -->
+      <div>
+        <h3 class="section-title">Fast Warmup</h3>
+        <div class="card-grid">
+          <div class="workout-card">
+            <h3>Leg exercises</h3>
+            <span>10 min | Beginner</span>
+          </div>
+          <div class="workout-card">
+            <h3>Backward lunge</h3>
+            <span>5 min | Beginner</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Button -->
+      <button class="cta-btn" onclick="alert('Time to sweat!')">Build My Plan</button>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Explore</div>
+      <div class="nav-item">Progress</div>
+      <div class="nav-item">Profile</div>
+    </div>
+  </div>
+</body>
+</html>

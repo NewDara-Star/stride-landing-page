@@ -7,9 +7,10 @@ function JoinWaitlistSection() {
         <section className="w-full bg-gradient-to-b from-white via-indigo-50/30 to-white
             dark:from-gray-900 dark:via-indigo-900/20 dark:to-gray-900
             transition-colors duration-300">
-            <div className="flex flex-col-reverse items-center p-8 pt-28 justify-around gap-16 md:flex-row max-w-7xl mx-auto">
-                <div className="flex flex-col md:justify-start min-w-28 w-full md:w-1/2 md:text-left md:items-start text-start">
-                    <SectionTitle className="md:text-left"
+            <div className="flex flex-col-reverse items-center p-8 pt-28 justify-around gap-16 md:flex-row max-w-7xl ">
+                
+                <div className="flex flex-col items-center md:items-start justify-center md:justify-start w-full md:w-1/2">
+                    <SectionTitle className="text-center md:text-left"
                         title="Join the waitlist" 
                         text="Experience the power of a truly integrated fitness tool with Stride. Elevate your workouts and achieve your goals with features that work as hard as you do. Be among the first to try Stride's advanced progress tracking and social sharing features. Your fitness journey starts here!"
                     /> 
@@ -30,7 +31,7 @@ function JoinWaitlistSection() {
                 </div>
 
                 <img 
-                    src="/images/Home.jpg" 
+                    src="/images/iphone 1.png" 
                     alt="" 
                     className="w-1/2 md:w-1/4 animate-fadeIn hover:scale-105 transition-transform duration-300 
                         drop-shadow-2xl"

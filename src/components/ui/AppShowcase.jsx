@@ -13,7 +13,7 @@ function AppShowcase  ({ imageUrl, headerText, bodyText, direction }) {
             <img src={imageUrl} alt="App showcase" className=' w-1/2 md:w-1/4'/>
             
                 <div className="flex flex-col items-start justify-start min-w-28w-full md:w-1/2 ">
-                    <h2 className="text-3xl md:text-left font-bold mb-4 justify-start">{headerText}</h2>
+                    <h2 className="text-3xl md:text-left font-bold mb-4">{headerText}</h2>
                     <p className="text-xl md:text-left mb-8">{bodyText}</p>
                 </div>
             
