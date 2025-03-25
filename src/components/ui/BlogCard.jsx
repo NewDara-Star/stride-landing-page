@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-function BlogCard({ imageUrl, title, text, date }) {
+function BlogCard({ imageUrl, title, text, date, link }) {
   return (
+    <Link to={link}>
     <article className="border p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow bg-white  dark:bg-zinc-900">
       <img
         src={imageUrl}
@@ -12,6 +14,7 @@ function BlogCard({ imageUrl, title, text, date }) {
       <p className="text-gray-600 mb-2 dark:text-gray-400">{text}</p>
       <p className="text-sm text-gray-500">{date}</p>
     </article>
+    </Link>
   );
 }
 
@@ -20,6 +23,7 @@ BlogCard.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default BlogCard;

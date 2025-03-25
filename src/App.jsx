@@ -6,7 +6,7 @@ import ContactPage from './pages/ContactPage'
 import PricingPage from './pages/PricingPage'
 import BlogPage from './pages/BlogPage'
 import JoinWaitlistPage from './pages/JoinWaitlistPage' 
-
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
   
@@ -19,6 +19,7 @@ function App() {
     <Route path="/pricing" element={<PricingPage />} />
     <Route path="/blog" element={<BlogPage />} />
     <Route path="/join-waitlist" element={<JoinWaitlistPage />} />
+    <Route path="/error" element={<ErrorPage />} />
 
 
 

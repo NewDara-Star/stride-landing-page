@@ -6,7 +6,7 @@ function PriceSection() {
         <section className="flex flex-col items-center justify-center gap-6 p-8 mx-auto animate-slideIn 
             bg-gradient-to-br from-white via-indigo-50/50 to-white
             dark:from-gray-900 dark:via-indigo-950/30 dark:to-gray-900
-            transition-colors duration-300 pt-28 w-full h-auto">
+            transition-colors duration-300 pt-28 w-full h-dvh">
                     <SectionTitle title="Choose Your Plan" text="Whether you’re just starting your fitness journey or you’re a seasoned athlete, 
                 Stride has a plan to fit your goals. Pick a subscription that works best for you, and get ready to take your workouts to the next level."/>
 
